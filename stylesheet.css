@@ -1,6 +1,30 @@
+html {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:floralwhite;
+background-color: pink;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 1.5;
+}
 h1.title {
-  color:darkred;
+  color:white;
   font-family: 'Times New Roman', Times, serif;
   font-size: 100px;
   text-align: center;
+}
+ul.unordered {
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+ol.ordered {
+  border: 1px solid black;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0  20px 20px 20px;
 }
